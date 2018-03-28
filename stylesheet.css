@@ -1,0 +1,141 @@
+/*this is the css for my presentation*/
+
+html { 
+	font-family: 'Fjalla One', sans-serif;
+
+	letter-spacing: 2px;
+
+	line-height: 1.5;
+
+	background-color: tomato; 
+
+	color: rgb(250,250,250);
+}
+
+body{
+	margin: 3%;
+}
+
+h1{
+	font-size: 10vh;
+}
+
+h2{
+	font-size: 7vh;
+}
+
+h3{
+	font-size: 5vh;
+}
+
+img{
+	max-width: 100%;
+}
+iframe{
+	width: 90vw;
+	height: 90vh;
+}
+.flex-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 5px;
+	border-bottom: 2px solid black;
+}
+
+.flex-item{
+	align-items: flex-start;
+}
+
+.logo{
+	width: 20%;
+}
+
+.title{
+	align-self: center;
+}
+
+.about{
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	width: 10%;
+	align-self: center;
+}
+
+.blurb{
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	width: 85%;
+}
+
+.resTitle{
+	padding-left: 40%;
+}
+
+.rimg{
+	width: 20%;
+}
+
+.comTitle{
+	width: 10%;
+}
+
+.comCons{
+	width: 30%;
+}
+
+.lpc{
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.comTitle h3{
+	font-size: 4vh;
+}
+
+@media(max-width: 1000px){
+
+	img{
+		max-width: 50%;
+	}
+
+	.about{
+		width: 8%;
+	}
+
+	.title{
+	width: 40%;
+	}
+
+	.blurb{
+		width: 80%;
+	}
+
+	.comTitle h3{
+		font-size: 2vh;
+	}
+}
+
+@media(max-width: 500px){
+h1{
+	font-size: 3vh;
+}
+
+h2{
+	font-size: 2vh;
+}
+
+h3{
+	font-size: 2vh;
+}
+
+.rimg{
+	padding-left: 30%;
+}
+
+.flex-item{
+	width: 100%;
+}
+
+}
