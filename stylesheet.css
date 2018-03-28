@@ -33,7 +33,7 @@ img{
 }
 iframe{
 	width: 90vw;
-	height: 90vh;
+	height: 100vh;
 }
 .flex-container{
 	display: flex;
@@ -74,6 +74,7 @@ iframe{
 
 .rimg{
 	width: 20%;
+	align-self: center;
 }
 
 .comTitle{
@@ -97,7 +98,7 @@ iframe{
 @media(max-width: 1000px){
 
 	img{
-		max-width: 50%;
+		max-width: 75%;
 	}
 
 	.about{
@@ -115,9 +116,24 @@ iframe{
 	.comTitle h3{
 		font-size: 2vh;
 	}
+
+	.rimg{
+		width: 50%;
+	}
+
+	.comTitle{
+		width: 20%;
+	}
+	.comCons{
+		width: 70%;
+	}
 }
 
 @media(max-width: 500px){
+img{
+	max-width: 50%;
+}
+
 h1{
 	font-size: 3vh;
 }
