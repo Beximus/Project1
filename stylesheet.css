@@ -71,7 +71,8 @@ iframe{
 }
 
 .resTitle{
-	padding-left: 40%;
+	width: 100%;
+	text-align: center;
 }
 
 .rimg{
