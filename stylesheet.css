@@ -41,6 +41,8 @@ iframe{
 	justify-content: space-between;
 	margin: 5px;
 	border-bottom: 2px solid black;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
 }
 
 .flex-item{
